@@ -6,8 +6,8 @@ function Card({ img, title, releaseDate, children }) {
     return(
         <div className={styles.wrapper}>
             <img src={img} className={styles.image}/>
-            <p>{title}</p>
-            <p>{releaseDate}</p>
+            <p className={styles.test}>{title}</p>
+            <p className={styles.test}>{releaseDate}</p>
         </div>
     )
 }

@@ -49,7 +49,7 @@ function useGetUpcoming() {
                 };
                 
                 try {
-                    await new Promise((resolve) => setTimeout(resolve, 2000));
+                    await new Promise((resolve) => setTimeout(resolve, 3000));
                     
                     const response = await fetch(url, options);
                     const result = await response.json();
